@@ -3,7 +3,7 @@ let context = canvas.getContext("2d");
 
 ctx.beginPath();
 ctx.strokeStyle = "rgba(200, 0, 0, 0.5)";
-ctx.moveT(0,0);
+ctx.moveTo(0,0);
 ctx.lineTo(200, 100);
 ctx.closePath();
 ctx.stroke();
